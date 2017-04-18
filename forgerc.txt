@@ -1,0 +1,62 @@
+Location /
+  Rewrite /index.html
+
+Location /index.html
+  Redirect /
+
+Location /shop
+  Rewrite /shop.html
+
+Location /shop.html
+  Redirect /shop
+
+Location /subscription
+  Rewrite /subscription.html
+
+Location /subscription.html
+  Redirect /subscription
+
+Location /about
+  Rewrite /about.html
+
+Location /about.html
+  Redirect about
+
+Location /wholesale
+  Rewrite /wholesale.html
+
+Location /wholesale.html
+  Redirect /wholesale
+
+Location /ethically-traded
+  Rewrite /ethically-traded.html
+
+Location /ethically-traded.html
+  Redirect /ethically-traded
+
+Location /environment
+  Rewrite /environment.html
+
+Location /environment.html
+  Redirect /environment
+
+Location /privacy
+  Rewrite /privacy.html
+
+Location /privacy.html
+  Redirect /privacy
+
+Location /terms
+  Rewrite /terms.html
+
+Location /terms.html
+  Redirect /terms
+
+Location /cookies
+  Rewrite /cookies.html
+
+Location /cookies.html
+  Redirect /cookies
+
+NotFound
+  Redirect /

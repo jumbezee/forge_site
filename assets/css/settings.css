@@ -1,0 +1,18 @@
+html {
+  min-height: 100%; }
+
+* {
+  box-sizing: border-box;
+  outline: none; }
+
+.container {
+  max-width: 1260px;
+  padding: 0 30px;
+  position: relative;
+  margin: 0 auto;
+  height: 100%; }
+
+@media only screen and (max-width: 767px) {
+  .container {
+    padding: 0 10px; } }
+/*# sourceMappingURL=settings.css.map */
