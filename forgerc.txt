@@ -60,3 +60,4 @@ Location /cookies.html
 
 NotFound
   Redirect /
+
