@@ -47,7 +47,7 @@ Location /privacy.html
   Redirect /privacy
 
 Location /terms
-  Rewrite /terms.html
+  Rewrite /terms.html 
 
 Location /terms.html
   Redirect /terms
