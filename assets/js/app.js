@@ -4,7 +4,7 @@ $(document).ready(() => {
   const activeSubscriptionItem = localStorage.getItem('subscriptionProduct');
   const pricePerBox = localStorage.getItem('pricePerBox');
   const activeElementStep2 = localStorage.getItem('activeElementStep2');
-  //sdaфыв
+  //sdaфывывф
   if (activeSubscriptionItem && pricePerBox) {
     $('#' + activeSubscriptionItem).addClass('coffee-section__item_active js-item-active');
     $('.js-price-per-box').empty().html(pricePerBox);
